@@ -47,7 +47,7 @@ entity Axi_IPEncoder_v1_0 is
 		s00_axi_rresp	: out std_logic_vector(1 downto 0);
 		s00_axi_rvalid	: out std_logic;
 		s00_axi_rready	: in std_logic
-	);
+	);--
 end Axi_IPEncoder_v1_0;
 
 architecture arch_imp of Axi_IPEncoder_v1_0 is
